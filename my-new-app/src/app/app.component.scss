@@ -1,0 +1,32 @@
+@use "../styles.scss" as s;
+
+.container {
+  background: s.$main-bg-color;
+  padding: 2rem 1.25rem;
+  width: 100vw;
+  height: 100vh;
+  font-family: s.$font-family;
+}
+
+.container__form {
+  background-color: s.$link-color;
+  font-weight: 200;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container__form-group {
+  color: s.$white;
+  border-radius: 0.625rem;
+  padding: 0.9375rem;
+}
+
+.container__form-btn {
+  background-color: red;
+  color: s.$white;
+  font-weight: 200;
+  font-size: 2rem;
+  padding: 0.9375rem;
+}

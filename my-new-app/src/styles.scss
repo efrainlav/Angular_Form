@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+//Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//Fonts
+$font-family: "Montserrat", sans-serif;
+
+//Colors
+$main-bg-color: #e5e5e5;
+$white: #fff;
+$error: #f960cd;
+$error-light: mix($error, $white, 10%);
+$remove: #b90686;
+$gray: #4e4e4e;
+$link-color: #1473a6;
+
+$income-icon-color: #4f991c;
+$income-icon-bg-color: #e7fdd7;
+$expense-icon-color: #991c6f;
+$expense-icon-bg-color: #ffdcfa;
+
+$amount-expense-color: $expense-icon-color;
+$amount-income-color: $income-icon-color;
+//Gradient Color
+$gradient-bg: linear-gradient(
+  to right bottom,
+  #d16ba5,
+  #c777b9,
+  #ba83ca,
+  #aa8fd8,
+  #9a9ae1,
+  #8aa7ec,
+  #79b3f4,
+  #69bff8,
+  #52cffe,
+  #41dfff,
+  #46eefa,
+  #5ffbf1
+);
+
+// Shadows
+$main-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+  rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+// Borders
+$main-border-radius: 0.9375rem;
